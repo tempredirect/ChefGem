@@ -7,4 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-chef_gem 'jvmargs'
+chef_gem 'jvmargs' do
+  options '--ignore-dependencies'
+end
